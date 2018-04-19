@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/theming';
 
-$primary: mat-palette($mat-pink, 500, 100, 400);
+$primary: mat-palette($mat-pink, A700, 100, 400);
 $accent: mat-palette($mat-orange, A200, A100, A400);
 $warn: mat-palette($mat-red, A700);
 $theme: mat-light-theme($primary, $accent, $warn);
@@ -63,6 +63,10 @@ $custom-typography: mat-typography-config(
 }
 html {
   direction: rtl;
+  background: #e6e6e6;
+  body {
+    margin: 0;
+  }
   * {
     font-family: 'vazir', sans-serif;
   }

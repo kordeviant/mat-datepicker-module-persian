@@ -1,25 +1,21 @@
 {
   "name": "@angular-persian/material-date-picker",
-  "version": "1.0.0-alpha.0",
-  "repository": "https://github.com/dherges/ng-packaged.git",
+  "version": "1.0.1",
+  "repository": "https://github.com/kordeviant/mat-datepciker-module-persian.git",
   "author": "kordeviant <kordeviant@gmail.com>",
   "license": "MIT",
   "private": true,
   "peerDependencies": {
     "@angular/core": ">=5.0.0",
     "@angular/common": ">=5.0.0",
+    "@angular/cdk": ">=5.2.5",
+    "@angular/material": ">=5.2.5",
     "moment-jalaali": ">=0.7.2"
   },
   "ngPackage": {
     "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
     "lib": {
-      "entryFile": "src/public_api.ts",
-      "umdModuleIds":{
-        "moment-jalaali": "Moment"
-      },
-      "externals": {
-        "moment-jalaali": "Moment"
-      }
+      "entryFile": "src/public_api.ts"
     },
     "dest": "../dist/material-date-picker"
   }

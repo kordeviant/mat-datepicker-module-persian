@@ -1,31 +1,16 @@
 # Persian Jalali DatePicker for Angular Material
-
-
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+[![TypeScript](https://badges.frapsoft.com/typescript/awesome/typescript-150x33.png?v=101)](https://github.com/ellerbrock/typescript-badges/)
 ### Angular persian datepicker with awesome features!
 
-
+### Install
 ```bash
-$ yarn install
-$ yarn build:lib
-$ ng serve
+npm install --save 
 ```
 
-Here are instructions how this demo was created.
-
-
-#### Install
-
-Using `ng-packagr`:
-
+development:
 ```bash
-$ ng new ng-packaged
-$ yarn add --dev ng-packagr
-```
-
-#### Build
-
-Now, build your library:
-
-```bash
-$ yarn build:lib
+yarn install
+yarn build:lib
+ng serve
 ```
