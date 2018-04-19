@@ -1,0 +1,23 @@
+{
+  "extends": "../tsconfig.json",
+  "angularCompilerOptions": {
+    "paths": {
+      "@angular-persian/material-date-picker": [ "../angular-persian/src/public_api.ts" ]
+    }
+  },
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "allowSyntheticDefaultImports": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "baseUrl": "",
+    "types": [],
+    "paths": {
+      "@my/lib": [ "../angular-persian/src/public_api.ts" ]
+    }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}

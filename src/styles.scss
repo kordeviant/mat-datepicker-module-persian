@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+
+$primary: mat-palette($mat-pink, 500, 100, 400);
+$accent: mat-palette($mat-orange, A200, A100, A400);
+$warn: mat-palette($mat-red, A700);
+$theme: mat-light-theme($primary, $accent, $warn);
+//@include angular-material-theme($theme);
+//
+$custom-typography: mat-typography-config(
+  $font-family: 'vazir',
+  $headline: mat-typography-level(22px, 44px, 700),
+  $body-1: mat-typography-level(13px, 20px, 500)
+);
+@include mat-core($custom-typography);
+
+@include angular-material-theme($theme);
+
+
+
+@font-face {
+  font-family: "vazir-code";
+  src: url('/assets/fonts/vazir-code/Vazir-Code.woff') format("woff"),
+  url('/assets/fonts/vazir-code/Vazir-Code.eot') format("eot"),
+  url('/assets/fonts/vazir-code/Vazir-Code.ttf') format("ttf");
+}
+
+@font-face {
+  font-family: "yekan2";
+  src: url('/assets/fonts/yekan/Yekan.eot?#iefix') format("embedded-opentype"), url("/assets/fonts/yekan/Yekan.woff") format("woff"), url('/assets/fonts/yekan/Yekan.ttf') format("truetype"), url("/assets/fonts/yekan/Yekan.svg#BYekan") format("svg");
+}
+
+@font-face {
+  font-family: "vazir-light";
+  src: url('/assets/fonts/vazir/Vazir-Light-FD.eot?#iefix') format("embedded-opentype"), url("/assets/fonts/vazir/Vazir-Light-FD.woff") format("woff"), url('/assets/fonts/vazir/Vazir-Light-FD.ttf') format("truetype"), url("/assets/fonts/vazir/Vazir-Light-FD.svg") format("svg");
+}
+
+@font-face {
+  font-family: "vazir-medium";
+  src: url('/assets/fonts/vazir/Vazir-Medium-FD.eot?#iefix') format("embedded-opentype"), url("/assets/fonts/vazir/Vazir-Medium-FD.woff") format("woff"), url('/assets/fonts/vazir/Vazir-Medium-FD.ttf') format("truetype"), url("/assets/fonts/vazir/Vazir-Medium-FD.svg") format("svg");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-weight: normal;
+  src: url('/assets/fonts/vazir/Vazir-FD.eot?#iefix') format("embedded-opentype"), url("/assets/fonts/vazir/Vazir-FD.woff") format("woff"), url('/assets/fonts/vazir/Vazir-FD.ttf') format("truetype"), url("/assets/fonts/vazir/Vazir-FD.svg") format("svg");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-weight: bold;
+  src: url('/assets/fonts/vazir/Vazir-Bold-FD.eot?#iefix') format("embedded-opentype"), url("/assets/fonts/vazir/Vazir-Bold-FD.woff") format("woff"), url('/assets/fonts/vazir/Vazir-Bold-FD.ttf') format("truetype"), url("/assets/fonts/vazir/Vazir-Bold-FD.svg") format("svg");
+}
+
+@font-face {
+  font-family: "fadigit";
+  src: url('/assets/fonts/fa-digits/Vazir-Code.woff') format("woff");
+}
+
+@font-face {
+  font-family: "barcode";
+  src: url('/assets/fonts/barcode/Code39.ttf') format("truetype");
+}
+html {
+  direction: rtl;
+  * {
+    font-family: 'vazir', sans-serif;
+  }
+}
