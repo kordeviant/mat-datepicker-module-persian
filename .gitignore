@@ -60,3 +60,5 @@ typings/
 dist/
 .ng_build/
 /src/@my
+/.idea/
+/.circleci/
