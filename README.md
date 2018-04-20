@@ -3,7 +3,7 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 ## Angular persian datepicker with awesome features!
 
-[<img src="https://kordeviant.github.io/mat-datepciker-module-persian/assets/Capture.PNG">](https://kordeviant.github.io/mat-datepciker-module-persian/)
+[<img src="docs/assets/Capture.PNG">](https://kordeviant.github.io/mat-datepciker-module-persian/)
 
 [Demo Website](https://kordeviant.github.io/mat-datepciker-module-persian/)
 ### Prerequisites
