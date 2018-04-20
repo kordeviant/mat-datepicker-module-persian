@@ -2,7 +2,7 @@
 @import '~@angular/material/theming';
 
 $primary: mat-palette($mat-pink, A700, 100, 400);
-$accent: mat-palette($mat-orange, A200, A100, A400);
+$accent: mat-palette($mat-pink, 300, A100, A400);
 $warn: mat-palette($mat-red, A700);
 $theme: mat-light-theme($primary, $accent, $warn);
 //@include angular-material-theme($theme);
@@ -63,11 +63,57 @@ $custom-typography: mat-typography-config(
 }
 html {
   direction: rtl;
-  background: #e6e6e6;
   body {
     margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   * {
     font-family: 'vazir', sans-serif;
+  }
+  .mat-form-field-flex {
+    &:hover {
+      cursor: pointer;
+    }
+    input {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .mat-form-field-infix {
+      padding: 10px;
+    }
+  }
+  .centered {
+    margin: 30px auto 0;
+    display: block;
+    width: 200px;
+  }
+
+}
+
+span.love {
+  direction: ltr;
+  color: #666;
+  margin-top: 100px;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+span.love a {
+  color: #000000;
+  text-decoration: none;
+}
+span.love .fa {
+  color: #E90606;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}
+
+@keyframes pound {
+  to {
+    transform: scale(2);
   }
 }

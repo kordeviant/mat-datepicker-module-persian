@@ -4,7 +4,7 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {MatDatepickerModulePersian} from '@angular-persian/material-date-picker';
 import {FormsModule} from '@angular/forms';
-import {MatInputModule, MatToolbarModule} from '@angular/material';
+import {MatCheckboxModule, MatInputModule, MatToolbarModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -17,6 +17,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     FormsModule,
     MatInputModule,
     MatToolbarModule,
+    MatCheckboxModule,
     MatDatepickerModulePersian
   ],
   providers: [],
