@@ -25,7 +25,7 @@ import {
 import {MdDatepickerIntl} from './datepicker-intl';
 import {createMissingDateImplError} from './datepicker-errors';
 import {Subscription} from 'rxjs/Subscription';
-import {DateAdapter, MAT_DATE_FORMATS} from '@angular/material';
+import { DateAdapter, MAT_DATE_FORMATS } from '@angular/material/core';
 import {DOWN_ARROW, END, HOME, LEFT_ARROW, PAGE_DOWN, RIGHT_ARROW, UP_ARROW} from '@angular/cdk/keycodes';
 import {PAGE_UP} from '@angular/cdk/keycodes';
 import {ENTER} from '@angular/cdk/keycodes';

@@ -33,7 +33,8 @@ import {
 import {Subscription} from 'rxjs/Subscription';
 import {createMissingDateImplError} from './datepicker-errors';
 import {coerceBooleanProperty} from '@angular/cdk/coercion';
-import {DateAdapter, MAT_DATE_FORMATS, MatFormField} from '@angular/material';
+import { DateAdapter, MAT_DATE_FORMATS } from '@angular/material/core';
+import { MatFormField } from '@angular/material/form-field';
 import {DOWN_ARROW} from '@angular/cdk/keycodes';
 
 

@@ -18,8 +18,11 @@
       "dom"
     ],
     "paths": {
-      "@angular-persian/material-date-picker": [ "dist/material-date-picker" ]
-    }
+      "@angular-persian/material-date-picker": [
+        "dist/material-date-picker"
+      ]
+    },
+    "module": "es2015"
   },
   "exclude": [
     ".ng_build"

@@ -11,14 +11,14 @@
     <!--</button>-->
 
     <mat-select #yearsDrop placeholder="سال" style="width: 50px;"
-                (change)="yearsDrop.value = null;_yearSelected($event)"
+                (selectionChange)="yearsDrop.value = null;_yearSelected($event)"
                 panelClass="drops-panels years {{(_dateAdapterr?.lang == 'en') ? 'latin' :''}}">
         <mat-option *ngFor="let food of foods" [value]="food">
             {{ _showDropYear(food) }}
         </mat-option>
     </mat-select>
     <mat-select #monthsDrop placeholder="ماه" style="width: 70px;"
-                (change)="monthsDrop.value = null;_monthSelectedd($event)"
+                (selectionChange)="monthsDrop.value = null;_monthSelectedd($event)"
                 panelClass="drops-panels months {{(_dateAdapterr?.lang == 'en') ? 'latin' :''}}">
         <mat-option *ngFor="let month of months" [value]="month">
             {{ _showDropMonth(month) }}

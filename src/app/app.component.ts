@@ -51,7 +51,7 @@ import {Component, OnInit, ViewChild} from '@angular/core';
 export class AppComponent implements OnInit {
   firstDate = new Date(new Date().getTime() + 80000000);
   secondDate = new Date(new Date().getTime() + 240000000);
-  @ViewChild('picker') picker;
+  @ViewChild('picker', { static: true }) picker;
   type = true;
 
   constructor() {

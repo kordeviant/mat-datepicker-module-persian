@@ -23,7 +23,7 @@ import {
     ViewContainerRef,
     ViewEncapsulation,
 } from '@angular/core';
-import {DOCUMENT} from '@angular/platform-browser';
+import {DOCUMENT} from '@angular/common';
 import {coerceBooleanProperty} from '@angular/cdk/coercion';
 import {
     Overlay, OverlayRef, OverlayConfig, PositionStrategy, RepositionScrollStrategy, // This import is only used to define a generic type. The current TypeScript version incorrectly
@@ -38,9 +38,8 @@ import {MdDatepickerInput} from './datepicker-input';
 import {Subscription} from 'rxjs/Subscription';
 import {createMissingDateImplError} from './datepicker-errors';
 import {MdCalendar} from './calendar';
-import {
-    DateAdapter, MatDialog, MatDialogRef,
-} from '@angular/material';
+import { DateAdapter } from '@angular/material/core';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import {first} from 'rxjs/operator/first';
 
 
@@ -83,7 +82,7 @@ export const MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER = {
 })
 export class MdDatepickerContent<D> implements AfterContentInit {
     datepicker: MdDatepicker<D>;
-    @ViewChild(MdCalendar) _calendar: MdCalendar<D>;
+    @ViewChild(MdCalendar, {static: false}) _calendar: MdCalendar<D>;
 
 
     ngAfterContentInit() {

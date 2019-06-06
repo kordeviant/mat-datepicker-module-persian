@@ -1,5 +1,5 @@
 import {Inject, Injectable, LOCALE_ID, Optional} from '@angular/core';
-import {DateAdapter} from '@angular/material';
+import { DateAdapter } from '@angular/material/core';
 import {JalaliMomentDateAdapter} from './jalali-date-adapter';
 import {extendObject} from './object-extend';
 import {Subject} from 'rxjs/Subject';

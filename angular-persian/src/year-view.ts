@@ -19,7 +19,7 @@ import {
 } from '@angular/core';
 import {MdCalendarCell} from './calendar-body';
 import {createMissingDateImplError} from './datepicker-errors';
-import {DateAdapter, MAT_DATE_FORMATS} from "@angular/material";
+import { DateAdapter, MAT_DATE_FORMATS } from "@angular/material/core";
 
 
 /**

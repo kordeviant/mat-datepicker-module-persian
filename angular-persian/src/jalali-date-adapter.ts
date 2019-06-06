@@ -1,5 +1,5 @@
 import {Inject, Optional} from '@angular/core';
-import {DateAdapter} from '@angular/material';
+import { DateAdapter } from '@angular/material/core';
 import * as jMoment from 'moment-jalaali';
 import {MAT_DATE_LOCALE} from './injectors';
 const minmin: any = jMoment;

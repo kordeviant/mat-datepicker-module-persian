@@ -22,10 +22,12 @@ import {MdDatepickerInput} from './datepicker-input';
 import {MdCalendar} from './calendar';
 import {MdDatepickerToggle} from './datepicker-toggle';
 import {MdDatepickerIntl} from './datepicker-intl';
-import {
-    MatButtonModule, MatButtonToggleModule, MatDialogModule, MatIconModule, MatOptionModule, MatSelectModule, DateAdapter,
-    MAT_DATE_FORMATS
-} from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatOptionModule, DateAdapter, MAT_DATE_FORMATS } from '@angular/material/core';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSelectModule } from '@angular/material/select';
 import {MdLocaleChanger} from './locale_changer';
 import {dateFormat, NativeDateAdapter} from './moment-date-adapter';
 

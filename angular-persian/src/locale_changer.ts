@@ -14,7 +14,7 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import {createMissingDateImplError} from './datepicker-errors';
-import {DateAdapter, MAT_DATE_FORMATS} from '@angular/material';
+import { DateAdapter, MAT_DATE_FORMATS } from '@angular/material/core';
 
 
 /**
