@@ -34,6 +34,18 @@
     "@ngtools/json-schema" "^1.1.0"
     rxjs "^6.0.0-beta.3"
 
+"@angular/animations@~5.2.0":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.11.tgz#2bd3fe9e72916ca28de9bfaaddf0cb936565a0b8"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/cdk@^5.2.5":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-5.2.5.tgz#cae2b12e1990a692dd267a73fdb1d49db37f9604"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@~1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-1.7.0.tgz#63c56e6d36d57bcd9d9d9425bd806f590f518211"
@@ -140,6 +152,12 @@
 "@angular/language-service@~5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-5.2.0.tgz#c8fab0ca8cbd79dafc96fad844ae69e9038b69ad"
+
+"@angular/material@^5.2.5":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.2.5.tgz#287af95d234e0644244d9db565f7a05c10b737f8"
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@~5.2.0":
   version "5.2.0"
@@ -3744,6 +3762,10 @@ istanbul-reports@^1.1.3:
   dependencies:
     handlebars "^4.0.3"
 
+jalaali-js@^1.0.0:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/jalaali-js/-/jalaali-js-1.1.5.tgz#a2cd4627c3c61588a81877df1d3098869213e985"
+
 jasmine-core@~2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.8.0.tgz#bcc979ae1f9fd05701e45e52e65d3a5d63f1a24e"
@@ -4500,9 +4522,21 @@ module-deps@^4.0.8:
     through2 "^2.0.0"
     xtend "^4.0.0"
 
+moment-jalaali@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/moment-jalaali/-/moment-jalaali-0.7.2.tgz#b26505ba6c5af4785a7fee132a193405e60f21ba"
+  dependencies:
+    jalaali-js "^1.0.0"
+    moment "^2.18.1"
+    rimraf "^2.6.1"
+
 moment@2.21.0:
   version "2.21.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.21.0.tgz#2a114b51d2a6ec9e6d83cf803f838a878d8a023a"
+
+moment@^2.18.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -6165,8 +6199,8 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
 
 set-getter@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.0.tgz#d769c182c9d5a51f409145f2fba82e5e86e80376"
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.1.tgz#a3110e1b461d31a9cfc8c5c9ee2e9737ad447102"
   dependencies:
     to-object-path "^0.3.0"
 
@@ -7022,13 +7056,13 @@ typedarray@^0.0.6, typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typescript@~2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
+
 typescript@~2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
-
-typescript@~2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.1.tgz#bb3682c2c791ac90e7c6210b26478a8da085c359"
 
 uglify-es@^3.3.4:
   version "3.3.9"
